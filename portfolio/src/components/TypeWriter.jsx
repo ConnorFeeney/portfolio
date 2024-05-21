@@ -8,7 +8,7 @@ const TypeWriter = ({ text }) => {
   useEffect(() => {
     const timeoutId = setTimeout(() => {
       setStartTyping(true);
-    }, 175);
+    }, 300);
 
     return () => clearTimeout(timeoutId);
   }, []);
