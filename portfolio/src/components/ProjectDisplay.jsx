@@ -6,7 +6,7 @@ function ProjectDisplay(){
                 <li className="rounded-xl mb-3 mt-3 w-full px-4 py-2 transition duration-300 hover:bg-zinc-800">
                     <p className="mx-5 text-zinc-400">l 2024-05-13</p>
                     <h3 className="mx-5 text-zinc-50">React Portfolio Website</h3>
-                    <p className="mx-5 text-zinc-400">Built a portfoilio website useing React, Tailwind css, and Framer Motion</p>
+                    <p className="mx-5 text-zinc-400">Built a portfoilio website using React, Tailwind css, and Framer Motion</p>
                     <a className="mx-5 align-text-top text-emerald-500 hover:underline" href="ProjectPage">See Details<span className="material-symbols-outlined leading-[1.5rem] align-bottom text-lg mx-1">arrow_forward</span></a>
                 </li>
             </ul>

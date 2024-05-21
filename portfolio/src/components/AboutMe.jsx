@@ -7,7 +7,7 @@ import WhistlerImg from '../assets/Whistler.jpg'
 function AboutMe(){
     return(
         <div className='relative'>
-            <div className='mx-10 sm:mx-16 pt-8 pb-0'>
+            <div className='mx-10 sm:mx-16 pt-6 pb-0'>
                     <h1 className='text-emerald-300 font-semibold text-5xl'>Hi, My Name Is</h1>
                     <div className='text-emerald-500 md:text-8xl text-6xl font-extrabold min-h-[10.5rem] pt-1 pb-8 md:min-h-[6rem]'><TypeWriter text="Connor Feeney."/></div> 
             </div>
