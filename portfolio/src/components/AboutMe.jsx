@@ -1,7 +1,5 @@
 import TypeWriter from './TypeWriter'
-import ParticlesBg from 'particles-bg'
-
-import ProggramingImg from '../assets/Proggraming.jpg'
+import portfolioIMG from '../assets/PortfolioPhoto.jpg'
 import WhistlerImg from '../assets/Whistler.jpg'
 
 function AboutMe(){
@@ -20,16 +18,17 @@ function AboutMe(){
                     areas work together. I love Coding, but balance is key. When I'm not glued to the screen, you'll find me carving down mountains on skis 
                     or out on my skateboard.
                 </p>
-                <img className='w-64 sm:w-72 rounded-xl shadow-[15px_15px_0px_0px_rgba(16,185,129,0.75)]' src={WhistlerImg}/>
+                <img className='w-64 sm:w-72 rounded-xl shadow-[15px_15px_0px_0px_rgba(16,185,129,0.75)]' src={portfolioIMG}/>
             </div>
             <span className='sm:text-[2.75rem] text-[3rem] text-zinc-300 inline mx-10 sm:mx-16'>
-                <a className='transition duration-300 hover:text-zinc-400'><i className="fa-brands fa-square-github pr-6"></i></a>
-                <a className='transition duration-300 hover:text-zinc-400'><i className="fa-brands fa-linkedin pr-6"></i></a>
+                <a href='https://github.com/ConnorFeeney' className='transition duration-300 hover:text-zinc-400'><i className="fa-brands fa-square-github pr-6"></i></a>
+                <a href='https://www.linkedin.com/in/connor-feeney-301a35313/' className='transition duration-300 hover:text-zinc-400'><i className="fa-brands fa-linkedin pr-6"></i></a>
             </span>
             
             
             <div className='w-[95%] border-b-2 border-neutral-500 m-auto'/>
-
+            
+            {/** 
             <div className='flex flex-nowrap gap-8 sm:gap-12 translate-x-[-15%] py-10'>
                 <div className='relative flex-none sm:w-72 rotate-[-8deg]'>
                     <img className='w-40 sm:w-72 rounded-xl' src={WhistlerImg}/>
@@ -47,7 +46,7 @@ function AboutMe(){
                     <img className='w-40 sm:w-72 rounded-xl' src={WhistlerImg}/>
                 </div>
             </div>
-            
+            */}
         </div>
     )
 }
